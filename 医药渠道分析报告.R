@@ -9,7 +9,7 @@ library(DBI)
 library(RMySQL)
 
 # 数据库环境设置
-conn1<-dbConnect(MySQL(),dbname="Channe_sales_analysis",host="192.168.111.251",username="root",password="P#y20bsy17")
+conn1<-dbConnect(MySQL(),dbname="Channe_sales_analysis",host="8888888888",username="88888",password="8888888")
 dbSendQuery(conn1,"SET NAMES gbk")
 
 # 设置工作目录
